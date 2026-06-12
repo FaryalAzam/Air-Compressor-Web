@@ -1,0 +1,8 @@
+{
+  "name": "Iqbal & Zeeshan Air Compressor",
+  "description": "Premium air compressor sales, expert repair, and robust technical support services in Karachi, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
