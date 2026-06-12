@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Modern clean industrial base -->
+  <rect width="100" height="100" rx="24" fill="#0c0c0c"/>
+  
+  <!-- Outer glowing rings and ticks -->
+  <circle cx="50" cy="50" r="38" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="32" stroke="#ea580c" stroke-width="2" stroke-dasharray="8 6"/>
+  
+  <!-- Core turbine / pressure booster elements of an Air Compressor -->
+  <g transform="translate(50,50)">
+    <circle cx="0" cy="0" r="10" fill="#ea580c" />
+    <!-- Primary heavy piston blades -->
+    <path d="M-4 -30 L4 -30 L6 -10 L-6 -10 Z" fill="#ea580c" />
+    <path d="M-4 -30 L4 -30 L6 -10 L-6 -10 Z" transform="rotate(120)" fill="#ea580c" />
+    <path d="M-4 -30 L4 -30 L6 -10 L-6 -10 Z" transform="rotate(240)" fill="#ea580c" />
+    
+    <!-- Secondary booster vanes -->
+    <path d="M-3 -28 L3 -28 L5 -10 L-5 -10 Z" transform="rotate(60)" fill="#f97316" opacity="0.8"/>
+    <path d="M-3 -28 L3 -28 L5 -10 L-5 -10 Z" transform="rotate(180)" fill="#f97316" opacity="0.8"/>
+    <path d="M-3 -28 L3 -28 L5 -10 L-5 -10 Z" transform="rotate(300)" fill="#f97316" opacity="0.8"/>
+    
+    <!-- Inner pressure nozzle -->
+    <circle cx="0" cy="0" r="4" fill="#ffffff" />
+  </g>
+</svg>
